@@ -18,7 +18,7 @@ export function Products() {
               <div>
                 <ImFileEmpty className="text-6xl text-gray-400 m-auto my-2" />
                 <h1 className="font-bold text-xl">
-                  No hay productos actualmente, por favor espere a que se agreguen nuevos productoss
+                  No hay productos actualmente, por favor espere a que se agreguen nuevos productos
                 </h1>
               </div>
             </div>

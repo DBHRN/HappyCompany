@@ -56,7 +56,7 @@ export function ProductInfo() {
                         <div className="featured_text">
                           <h1>GUS</h1>
                           <p className="sub">JUGUETE DIDÁCTICO</p>
-                          <p className="price">$600.00</p>
+                          <p className="price">$2299.00</p>
                         </div>
                         <div className="image">
                           <img src={producto} alt=""/>
@@ -64,7 +64,7 @@ export function ProductInfo() {
                       </div>
                       <div className="half">
                         <div className="description">
-                          <p>Juguete para aprendizaje infantil dirigido a niños invidentes de 4 años en adelante el cual consiste en un gusano con botones y baille para aprender los números del 1 al 5 y las vocales.</p>
+                          <p>Juguete para aprendizaje infantil dirigido a niños invidentes de 4 años en adelante el cual consiste en un gusano con botones y braille para aprender los números del 1 al 5 y las vocales.</p>
                         </div>
                         <span className="stock"><i className="fa fa-pen"></i>Disponible</span>
                         <div className="reviews">
