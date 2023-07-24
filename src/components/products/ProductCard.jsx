@@ -1,14 +1,21 @@
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
-
+import { UseMenu } from '../../context/menuContext';
 
 // eslint-disable-next-line react/prop-types
 export function ProductCard({ product }) {
+  const { menu } = UseMenu();
   const productUsed = product;
   productUsed.propTypes = {
     product: PropTypes.object.isRequired,
   };
 
+  const ProductImage = productUsed.image;
+  if (menu) {
+    ProductImage.style.display = 'none';
+  } else {
+    ProductImage.style.display = 'flex';
+  }
   return (
     <>
     <Link to={`/products/${productUsed._id}`} >
