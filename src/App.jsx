@@ -9,7 +9,7 @@ import HomePage from "./pages/HomePage"
 import ProtectedRoute from "./ProtectedRoute"
 import Header from "./components/header"
 import Footer from "./components/footer"
-import Navbar from "./components/navbar"
+import Navbar from "./components/Navbar"
 import AboutUs from "./pages/AboutUs"
 import Contact from "./pages/Contact"
 import Cart from "./pages/Cart"
@@ -17,7 +17,7 @@ import Products from "./pages/Products"
 import { TaskProvider } from "./context/TasksContext"
 import { UseMenu } from "./context/menuContext"
 import ProductInfo from "./pages/ProductInfo"
-import { ProductProvider } from "./context/productsContext"
+import { ProductProvider } from "./context/ProductsContext"
 
 
 function app() {
