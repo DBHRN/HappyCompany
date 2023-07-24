@@ -9,13 +9,6 @@ export function ProductCard({ product }) {
   productUsed.propTypes = {
     product: PropTypes.object.isRequired,
   };
-
-  const ProductImage = productUsed.image;
-  if (menu) {
-    ProductImage.style.display = 'none';
-  } else {
-    ProductImage.style.display = 'flex';
-  }
   return (
     <>
     <Link to={`/products/${productUsed._id}`} >
