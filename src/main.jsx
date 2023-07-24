@@ -8,6 +8,7 @@ import './styles/company_name.css'
 import './styles/home.css'
 import './styles/footer.css'
 import './styles/menu.css'
+import './styles/responsive.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

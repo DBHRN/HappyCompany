@@ -1,0 +1,58 @@
+@media only screen and (max-width: 680px) {
+    .company__name {
+        display: block;
+        flex-direction: row;
+        text-align: center;
+        display: inline-block;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .company__description .title h2, .contactanos .title h2{
+        font-size: 2rem;
+    }
+    .company__description .description p, .contactanos .description p {
+        font-size: 1rem;
+        color: white;
+    }
+    .nuestros__productos-text-container  {
+        font-size: 1rem;
+    }
+    .carousel span {
+
+        display: relative;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel span h1{
+        font-size: 1rem;
+    }
+    .menu__container {
+        width: 80%;
+    }
+    .section-content {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0% 10%;
+        margin-bottom: 20%;
+    
+    }
+    #valores {
+        height: 100vh;
+        display: block;
+        justify-content: space-between;
+        gap: 3rem;
+    }
+    #valores .section-text {
+        text-align: justify;
+        line-height: 1.6;
+        font-size: 1.2rem;
+    }
+    #valores .section-text p {
+        display: inline-block;
+        font-weight: bold;
+    }
+  }
