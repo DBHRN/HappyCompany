@@ -1,1 +1,1 @@
-export const API_URL = import.meta.env.VITE_API_URL|| "https://ill-pink-panther-coat.cyclic.app/api";
+export const API_URL = import.meta.env.VITE_API_URL|| "https://happycompanyserver.onrender.com/api";

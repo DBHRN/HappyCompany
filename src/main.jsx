@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/youtube.css' rel='stylesheet'/>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/mail.css' rel='stylesheet'/>
     <MenuProvider>
-      <App />
+      <App  />
     </MenuProvider>
   </React.StrictMode>,
 )
