@@ -1,6 +1,6 @@
 import title from "../components/ui/title";
 import "../styles/products.css";
-import { useProducts } from "../context/productsContext";
+import { useProducts } from "../context/ProductsContext";
 import { ImFileEmpty } from "react-icons/im";
 import { ProductCard } from "../components/products/ProductCard";
 import { useEffect } from "react";

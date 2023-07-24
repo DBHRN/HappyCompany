@@ -1,5 +1,5 @@
 import {useForm} from 'react-hook-form';
-import {useTasks} from '../context/tasksContext';
+import {useTasks} from '../context/TasksContext';
 import {useNavigate, useParams} from 'react-router-dom';
 import { useEffect } from 'react';
 import dayjs from 'dayjs';

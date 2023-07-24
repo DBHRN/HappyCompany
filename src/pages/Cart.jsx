@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import '../styles/cart.css'
 import { ImFileEmpty } from "react-icons/im";
 import CartItemCard from '../components/cart/CartItemCard.jsx';
-import { useProducts } from "../context/productsContext";
+import { useProducts } from "../context/ProductsContext";
 import '../components/total'
 import { useEffect } from 'react';
 import { useNavigate } from "react-router-dom";

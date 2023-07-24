@@ -1,4 +1,4 @@
-import { useProducts } from "../../context/productsContext";
+import { useProducts } from "../../context/ProductsContext";
 import PropTypes from 'prop-types';
 
 
