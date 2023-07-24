@@ -10,13 +10,16 @@ function RegisterPage () {
     const {signup, isAuthenticated, errors: registerErrors} = useAuth();
     const navigate = useNavigate();
 
-    
-    const onSubmit = handleSubmit(async(values) => {
-                signup(values);
-            });
+    const NavigateNow = () => {
     useEffect(() => {
         if (isAuthenticated) navigate('/tasks');
     }, [isAuthenticated]);
+    }
+
+    const onSubmit = handleSubmit(async(values) => {
+                signup(values);
+                NavigateNow();
+            });
     return (
 
         <div className='background_config flex h-[calc(100vh-100px)] items-center justify-center' >
