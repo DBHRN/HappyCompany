@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 import RegisterPage from "./pages/RegisterPage"
-import LoginPage from "./pages/loginPage"
+import LoginPage from "./pages/LoginPage"
 import { AuthProvider } from "./context/AuthContext"
 import TasksPage from "./pages/TasksPage"
 import TaskFormPage from "./pages/TaskFormPage"
